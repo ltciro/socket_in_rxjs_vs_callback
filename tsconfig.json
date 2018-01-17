@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "target": "es2017",
+    "module": "commonjs",
+    "outDir": "dist"
+  },
+  "include": [
+    "main/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
