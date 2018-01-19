@@ -31,13 +31,12 @@ export class SocketCb {
           console.log(err)
           return;
         }
-        this.getTeam(data,
-        (err, members) => this.getMembers(err,members));
+        this.getTeam(data,(err, members) => this.getMembers(err,members));
         console.log("continue");
-        }
+      }
     )
   }
-
+  
   connect(){
     this.io.onConnect(() => {
        console.log('connected')
