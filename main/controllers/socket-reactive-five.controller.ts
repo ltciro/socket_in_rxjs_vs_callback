@@ -1,4 +1,4 @@
-//https://github.com/ReactiveX/rxjs/blob/master/doc/pipeable-operators.md#known-issues
+//https://github.com/ReactiveX/rxjs/blob/master/doc/pipeable-operators.md
 import { SocketRxjs } from './../libs/socket.rxjs';
 import { of } from 'rxjs/observable/of';
 import { tap, filter, map }  from 'rxjs/operators';
