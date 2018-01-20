@@ -29,7 +29,7 @@ export class SocketReactive {
     console.log('completed')
   }
 
-[{team:"rogue"},{team:"otro"}]
+
   listenToChangeOutput():void {
     this.io.onEvent("edge_communication")
     .filter(this.getTeam)
